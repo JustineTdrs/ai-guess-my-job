@@ -40,3 +40,64 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #888888;
+  font-family: Arial, sans-serif;
+}
+
+.question-container, .result-container {
+  text-align: center;
+  background: rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+h2 {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #007bff;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:first-child {
+  background: #28a745;
+  color: white;
+}
+
+button:last-child {
+  background: #dc3545;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8; 
+}
