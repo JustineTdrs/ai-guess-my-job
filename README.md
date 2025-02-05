@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# 🚀 AI Guess My Job - Devine Ton Métier !
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un jeu interactif en **React + TypeScript** qui tente de **deviner ton métier** en fonction de tes réponses à une série de questions amusantes ! 🎭💼
 
-Currently, two official plugins are available:
+## 🌟 Fonctionnalités
+✅ Réponds à une série de **questions intelligentes** 🧠
+✅ Découvre **quel métier correspond à tes réponses** 🔍
+✅ Interface **fluide et animée** grâce à Framer Motion ✨
+✅ **Plus de 15 métiers** différents détectables !
+✅ **Déployé sur GitHub Pages** pour être accessible en ligne 🌍
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Démo en ligne
+🔗 [Voir le projet en action](https://JustineTdrs.github.io/ai-guess-my-job/) 🚀
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Utilisées
+- **React + TypeScript** ⚛️
+- **Vite** pour un build ultra rapide ⚡
+- **Framer Motion** pour des animations fluides 🎬
+- **GitHub Pages** pour le déploiement 📡
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📥 Installation & Exécution
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 1️⃣ Clone le repo
+```bash
+git clone https://github.com/JustineTdrs/ai-guess-my-job.git
+cd ai-guess-my-job
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 2️⃣ Installe les dépendances
+```bash
+npm install
 ```
+
+### 3️⃣ Lance le projet en local
+```bash
+npm run dev
+```
+
+Le jeu sera accessible sur `http://localhost:5173`
+
+## 🚀 Déploiement sur GitHub Pages
+Le projet est déjà configuré pour être déployé sur GitHub Pages. Pour le redeployer :
+```bash
+npm run deploy
+```
+Cela mettra automatiquement à jour le site en ligne ! 🎉
+
+## 🛠️ Améliorations Possibles
+- 🔥 **Ajout de nouveaux métiers et questions**
+- 🌍 **Traduction multilingue**
+- 📊 **Ajout d'un leaderboard des métiers les plus devinés**
+- 📱 **Optimisation mobile et design amélioré**
+
+## 📞 Contact
+💡 Une idée d'amélioration ? Un bug ? Contacte-moi sur **GitHub** !
+
+📌 **Auteur : JustineTdrs**  
+🔗 **GitHub :** [JustineTdrs](https://github.com/JustineTdrs)
+
